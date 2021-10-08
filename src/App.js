@@ -1,9 +1,13 @@
 import './App.css';
+import CurrentZip from './components/current-zip';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <div><h1>Hello World!</h1></div>
+      <Switch>
+        <Route exact path ='/' component={CurrentZip}/>
+      </Switch>
     </div>
   );
 }
