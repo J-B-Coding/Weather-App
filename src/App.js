@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import CurrentZip from './components/current-zip';
 import { Route, Switch } from 'react-router-dom';
 

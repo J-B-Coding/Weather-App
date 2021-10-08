@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import './App.css'
-import './index.css'
+// import './App.css'
+// import './index.css'
 
 const currentZipData = {
     zip_code: ''
