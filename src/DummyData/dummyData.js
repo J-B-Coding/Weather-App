@@ -1,5 +1,4 @@
-export const dummydata = 
-[{
+export const dummydata = [{
     weatherType: 'Chilly',
     temperature: '17 F',
     day: 'Sunday',
@@ -47,11 +46,4 @@ export const dummydata =
     day: 'Saturday',
     location: 'Alabama',
     humidity: '12%'
-},
-{
-    weatherType: 'Sunny',
-    temperature: '80 F',
-    day: 'Sunday',
-    location: 'Florida',
-    humidity: '30%'
 }]
