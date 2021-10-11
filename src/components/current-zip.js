@@ -1,6 +1,5 @@
+import '../index.css';
 import React, { useState } from "react";
-//import './App.css'
-//import '../index.css'
 
 const currentZipData = {
     zip_code: ''
@@ -21,7 +20,7 @@ const CurrentZip = () => {
 
     return(
         <div className='currentZipDiv'>
-            <h1 className='currentZipHeader'> J and B Weather App </h1>
+            <h1 className='currentZipHeader'> J {'&'} B Weather App </h1>
             <h3 className='currentZipTitle'> Enter Your Current Zip Code </h3>
             <form className='currentZipForm' onSubmit={onSubmit}>
                 <input
@@ -32,7 +31,7 @@ const CurrentZip = () => {
                     value={zipData.zip_code}
                     onChange={onChange}
                 />
-                <button>Submit</button>
+                <button id='enterZip'>Enter Zip</button>
             </form>
         </div>
     )
