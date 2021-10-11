@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-// import './App.css'
-// import './index.css'
+//import './App.css'
+//import '../index.css'
 
 const currentZipData = {
     zip_code: ''
@@ -32,6 +32,7 @@ const CurrentZip = () => {
                     value={zipData.zip_code}
                     onChange={onChange}
                 />
+                <button>Submit</button>
             </form>
         </div>
     )
