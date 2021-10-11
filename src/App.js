@@ -1,4 +1,4 @@
-import CurrentZip from './components/current-zip';
+import CurrentZip from './components/CurrentZip';
 import { Route, Switch } from 'react-router-dom';
 import WeeklyWeather from './components/WeeklyWeather';
 import DailyWeather from './components/DailyWeather'
